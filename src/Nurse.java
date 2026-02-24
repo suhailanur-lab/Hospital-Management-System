@@ -1,0 +1,23 @@
+package hospital;
+
+public class Nurse extends Person implements Treatable {
+
+    private String department;
+
+    public Nurse(String name, int age, String department) {
+        super(name, age);
+        this.department = department;
+    }
+
+    @Override
+    public void showInfo() {
+        System.out.println("Nurse: " + this.getName() +
+                ", Age: " + this.getAge() +
+                ", Department: " + department);
+    }
+
+    @Override
+    public void treat() {
+        System.out.println("Nurse " + this.getName() + " is assisting patients.");
+    }
+}
