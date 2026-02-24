@@ -5,13 +5,13 @@ public abstract class Person {
     private String name;
     private int age;
 
-    // Constructor
+   
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // Getters and Setters (Encapsulation)
+   
     public String getName() {
         return name;
     }
@@ -28,6 +28,6 @@ public abstract class Person {
         this.age = age;
     }
 
-    // Abstract method (Must be overridden)
+ 
     public abstract void showInfo();
 }
