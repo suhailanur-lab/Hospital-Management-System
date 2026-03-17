@@ -11,7 +11,7 @@ public class Main {
         System.out.println("HOSPITAL MANAGEMENT SYSTEM");
 
         try {
-         
+         //doctor
             System.out.print("Enter doctor name: ");
             String dName = input.nextLine();
 
@@ -24,7 +24,7 @@ public class Main {
 
             Doctor doctor = new Doctor(dName, dAge, specialty);
 
-    
+    //pateint 
             System.out.print(" Enter patient name: ");
             String pName = input.nextLine();
 
@@ -34,7 +34,7 @@ public class Main {
 
             Patient patient = new Patient(pName, pAge);
 
-         
+         //nurse
             System.out.print(" Enter nurse name: ");
             String nName = input.nextLine();
 
@@ -47,7 +47,7 @@ public class Main {
 
             Nurse nurse = new Nurse(nName, nAge, dept);
 
-         
+         //surgery
             System.out.print(" Enter surgery name: ");
             String sName = input.nextLine();
 
